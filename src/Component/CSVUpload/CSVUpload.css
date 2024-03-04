@@ -1,0 +1,18 @@
+/* CSVUpload.css */
+
+.csv-upload-container button {
+    /* Style your button here, example: */
+    background-color: var(--primary-color); /* Use color variables from App.css */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .csv-upload-container button:hover {
+    background-color: darken(var(--primary-color), 10%);
+  }
+  

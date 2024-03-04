@@ -1,38 +1,76 @@
-.App {
+:root {
+  --primary-color: #E91E63; /* This should be the pink/magenta color from your logo */
+  --background-color: #a5a5a5; /* Dark red color */
+  --text-color: #FFFFFF; /* White color for text to stand out against the dark background */
+  --accent-color: #CCCCCC; /* Light grey color for borders and possibly other accents */
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+
+.app-container {
+  font-family: 'Arial', sans-serif;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: var(--background-color);
+  color: var(--text-color);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.app-header {
+  background-color: var(--background-color);
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app-logo {
+  max-width: 200px; /* Adjust as needed */
+  margin-bottom: 20px;
+}
+
+.profile-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid var(--accent-color);
+  border-radius: 4px;
+  background: var(--background-color);
+}
+
+.navigation-buttons {
+  margin-top: 10px;
+}
+
+button {
+  background-color: var(--primary-color);
+  border: none;
+  color: var(--text-color);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: darken(var(--primary-color), 10%); /* Slightly darken the button on hover */
+}
+
+button:disabled {
+  background-color: #555; /* Darker grey when button is disabled */
 }
