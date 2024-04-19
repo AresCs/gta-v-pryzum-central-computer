@@ -22,7 +22,7 @@ const Profile: React.FC<ProfileProps> = ({ profileData }) => {
         }} 
       />
       <p>Number: {profileData.Number}</p>
-      <p>Gang/Association: {profileData.GangAssociation}</p>
+      <p>Gang/Association: {profileData['Gang/Association']}</p>
       <p>Nicknames: {profileData.Nicknames}</p>
       <p>Dirt: {profileData.Dirt}</p>
       <p>Information: {profileData.Information}</p>

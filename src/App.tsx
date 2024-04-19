@@ -8,7 +8,7 @@ import Logo from './Component/Logos/Pryzym_Logo2.png'; // Ensure this path is co
 export interface ProfileData {
   Name: string;
   Number: string;
-  GangAssociation: string;
+  'Gang/Association': string;
   Nicknames: string;
   Dirt: string | null;
   Information: string | null;
