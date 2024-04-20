@@ -26,6 +26,7 @@ const Profile: React.FC<ProfileProps> = ({ profileData }) => {
       <p>Nicknames: {profileData.Nicknames}</p>
       <p>Dirt: {profileData.Dirt}</p>
       <p>Information: {profileData.Information}</p>
+      <p>Properties: {profileData.Properties}</p>
       <p>Occupations: {profileData.Occupations}</p>
     </div>
   );

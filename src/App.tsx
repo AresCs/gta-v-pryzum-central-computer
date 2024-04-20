@@ -11,6 +11,7 @@ export interface ProfileData {
   'Gang/Association': string;
   Nicknames: string;
   Dirt: string | null;
+  Properties: string | null;
   Information: string | null;
   Occupations: string;
   'Picture of Person': string | null;
