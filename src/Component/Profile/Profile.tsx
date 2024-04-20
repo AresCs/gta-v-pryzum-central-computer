@@ -1,7 +1,7 @@
 import React from 'react';
 import { ProfileData } from '../../App';
 import './Profile.css';
-import Placeholder from './person-silhouette.jpg';
+import Placeholder from './NoTargetFound.png';
 
 interface ProfileProps {
   profileData: ProfileData;
