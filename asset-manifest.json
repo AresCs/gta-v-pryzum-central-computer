@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/gta-v-pryzum-central-computer/static/css/main.28247619.css",
-    "main.js": "/gta-v-pryzum-central-computer/static/js/main.dcfcfddc.js",
+    "main.js": "/gta-v-pryzum-central-computer/static/js/main.7d78e774.js",
     "static/js/453.3c5f0708.chunk.js": "/gta-v-pryzum-central-computer/static/js/453.3c5f0708.chunk.js",
     "static/media/NoTargetFound.png": "/gta-v-pryzum-central-computer/static/media/NoTargetFound.1f598d5d80b095d4141f.png",
     "static/media/Pryzym_Logo2.png": "/gta-v-pryzum-central-computer/static/media/Pryzym_Logo2.2f29df158615dc7a7429.png",
     "index.html": "/gta-v-pryzum-central-computer/index.html",
     "main.28247619.css.map": "/gta-v-pryzum-central-computer/static/css/main.28247619.css.map",
-    "main.dcfcfddc.js.map": "/gta-v-pryzum-central-computer/static/js/main.dcfcfddc.js.map",
+    "main.7d78e774.js.map": "/gta-v-pryzum-central-computer/static/js/main.7d78e774.js.map",
     "453.3c5f0708.chunk.js.map": "/gta-v-pryzum-central-computer/static/js/453.3c5f0708.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.28247619.css",
-    "static/js/main.dcfcfddc.js"
+    "static/js/main.7d78e774.js"
   ]
 }
